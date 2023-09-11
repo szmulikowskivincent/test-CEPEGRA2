@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(217deg, rgb(238, 233, 230), rgba(255,0,0,0) 50.71%),
+              linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(193, 241, 205, 0.8), rgba(0,0,255,0) 70.71%);
+}
+
+/*image forem*/
+.parent {
+  text-align : center;
+}
+
+/*bonton contact-telephone*/
+.contact-telephone {
+  text-align : center;
+}
+
+/*input-forme-formulaire*/
+.input-forme {
+  width: 280px;
+  height: 35px;
+  border-radius:3%;
+  caret-color: red;
+  font: 12px "Arial",
+}
+
+/*button-clear-send*press me*/
+.input-clear-send-press-me {
+  width: 85px;
+  height: 40px;
+  border-radius:3%;
+}
+
+/*button-cancel*/
+.button-cancel {
+  width: 60px;
+  height: 30px;
+  border-radius:3%;
+  color:blueviolet;
+}
+
+/*page connection-img-centrale*/
+.img-validation {
+  border-radius : 12%;
+}
+
+/*div-avatar*/
+.div-avatar {
+  text-align: right;
+}
+
+/*avatar*/
+.avatar {
+  text-align: right;
+  width: 4%;
+  border: 2.5px solid rgb(8, 242, 110);
+  border-radius: 50%;
+}
+
+/*button-ajouter avatar "+"*/
+.button-ajouter-avatar {
+  border-radius: 3%;
+  color:rgb(51, 235, 14);
+}
+
+/*footer*/
+.footer {
+  text-align: center;
+  color:black
+}
+
+/*reseaux sociaux*/
+.section-reseaux-sociaux {
+  text-align: center;
+}
+
+/*p*/
+.p  {
+  text-align: center;
+  color:black
+}
+
+/*p*/
+.p-donnée-formulaire-test  {
+  text-align: center;
+  color:rgb(254, 0, 0)
+}
+
+/*paragraphe "h3"*/
+.h3  {
+  text-align: center;
+  color:rgb(254, 0, 0)
+}

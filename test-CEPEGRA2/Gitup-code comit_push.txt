@@ -1,0 +1,4 @@
+<!-code pour commit ma brabche->
+$ git commit --amend
+<!--code pour push ma branche
+$ git push --force-with-lease

@@ -1,0 +1,84 @@
+<!DOCTYPE html lan "fr">
+<meta charset="UTF-8"/>
+<title>Mon test-CEPEGRA</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<header>
+<!--logo cepegra-->
+    <a href="https://www.facebook.com/cepegra">
+        <img src="imgs/logo-cepegra.jpg" width="15%" title="Cliquez ici pour acceder à notre site web"/>
+    </a>
+        <img src="imgs/globe-gif.gif" width="8%"/>
+    <!--logo-téléphone-contact-->
+    <div class="contact-telephone">
+        <address>
+            <a href="tel:071/23.15.72 (CEPEGRA)">
+                <img src="imgs/Logo-Téléphone.png" width="3%" title="cliquez ici pour nous contacter" alt="Numéro de téléphone"/></a>
+        </address>
+    </div>
+</header>
+
+<br/><br/><br/>
+
+<body>
+    <div class="parent">
+    <button class="input-clear-send-press-me" id="Bouton" title="Afficher les données test">Press me !</button>
+    <br /><br />
+        <div class="p" style="color:rgb(255, 0, 0)" id="tonDiv">test&#160;&nbsp;=>>&#160;&nbsp;(Prénom: Vincent) &nbsp;&#160;&nbsp; &nbsp;&#160;&nbsp;(Nom: Szmulikowski)  &nbsp;&#160;&nbsp; &nbsp;&#160;&nbsp; (email: szmulikowski.vincent.1971@hotmail.com)  &nbsp;&#160;&nbsp; &nbsp;&#160;&nbsp; (Password: Moi1971moi)</div>
+    </div>
+   
+    <!--formulaire-->
+    <form class="parent" name="login">
+        <input style="background-color:rgb(245, 242, 239)" type="text" minlength="4" maxlength="12" class="input-forme" name="username" placeholder="*Prénom" required pattern="[A-Za-z]+"/>&nbsp;
+        <input style="background-color:rgb(245, 242, 239)" type="text" minlength="4" maxlength="18" class="input-forme" name="userlastname" placeholder="*Nom" required pattern="[A-Za-z]+"/>&nbsp;
+        <input style="background-color:rgb(245, 242, 239)" type="email" class="input-forme" name="useremail" placeholder="*test@example.com" required="required"/>&nbsp;
+        <input style="background-color:rgb(245, 242, 239)" type="password" class="input-forme" name="password" placeholder="*Password" minlength="4" maxlength="14" required="required"/>&nbsp;
+        <br/><br/>
+        <input style="color:rgb(245, 12, 12)" class="input-clear-send" type="reset" value="Clear"/>
+        <input style="color:rgb(56, 184, 30)" class="input-clear-send" type="button" value="Send" type="submit" onclick="Login()"/>
+        <br/>
+        <p style="color:rgb(255, 0, 0)">*Champs obligatoires</p>
+    </form>
+
+    <script language="JavaScript" src="js/formulaireUser.js"></script>
+    <script language="JavaScript" src="js/div on_off.js"></script>
+</body>
+
+<br/><br/>
+
+<!--footer-->
+<footer class="footer">
+    <div class="parent">
+        <p>Avenue Georges Lemaître 22, 6041 - Gosselies</p>
+        <img src="imgs/labelisation-cepegra.png" alt="Logo" width="50%"/>
+    </div>
+
+    <br/><br/>
+
+    <!--section "reseaux sociaux"-->
+    <section class="reseaux-sociaux">
+        <div>
+            <a href="mailto:isabelle.evrard@forem.be]" target="_blank">
+                <img alt="Image_Email_Enveloppe" src="imgs/Image_Arobase.jpg" width="3%" style="border-radius: 45px" margin="350px"/>
+            </a>
+            &nbsp;&#160;&nbsp; &nbsp;&#160;&nbsp;
+            <a href="https://be.linkedin.com/school/cepegra/" target="_blank">
+                <img alt="Image_Linkedin" src="imgs/Image_Linkedin.png" width="3%" style="border-radius: 45px" margin="350px"/>
+            </a>
+            &nbsp;&#160;&nbsp; &nbsp;&#160;&nbsp;
+            <a href="https://www.leforem.be/" target="_blank">
+                <img alt="Image_Forem" src="imgs/Image_Forem.jpg" width="3%" style="border-radius: 45px" margin="350px"/>
+            </a>
+        </div>
+    </section>
+
+    <br/>
+
+    <p>
+        © 2023, Mon test cepegra 2023 ❙❙ Szmulikowski Vincent
+    </p>
+</footer></html>
